@@ -60,7 +60,7 @@ As you can imagine, the fix is not to hardcode all of these scenarios inside the
 *Solution*: 
 
 1. Creat another folder called "search."
-2. Create "mapper.py" and "reducer.py" in the "search" folder.
+2. Create the "mapper.py" and the "reducer.py" in the "search" folder.
 3. In the "mapper.py", write
 
 ```
@@ -89,7 +89,7 @@ print '%s\t%s' % (word, 1)
 else:
 print '%s\t%s' % (word, 0)
 ```
-3. In the "reducer.py", copy the same code from "reducer.py" in the "basic_grep" folder
+3. In the "reducer.py", copy the same code from the "reducer.py" in the "basic_grep" folder
 
 To find words that start wth "f" or end in "x":
 
